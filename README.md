@@ -1,7 +1,8 @@
-# Pré Package de Ambiente Ubuntu - BitNers
-#### Auto-Install softwares para máquinas Ubuntu de forma automática, feita por BitNers.
+# Pré-Pacote de Ambiente Ubuntu - BitNers
+#### Auto-Install de softwares e ferramentas para máquinas Debian/Ubuntu.
 
-Basicamente é chato às vezes formatar uma máquina Ubuntu e perder tempo recuperando instalações, logo, pensei em desenvolver um script shell para automatizar essa tarefa para mim.
+É terrível imaginar que ao montar meu ambiente Dev em Ubuntu, eu precise dedicar minutos instalando softwares um a um. Afim de agilizar isso, criei um script shell para automatizar essa tarefa para mim.
+Não tem nada demais, é apenas um instalador já montado com todas as instruções que eu preciso
 
 
 Instalação
@@ -13,5 +14,5 @@ Faça o download do projeto. <br>
 Localize o download e execute `chmod`para torná-lo um executável. <br>
 `sudo chmod +x ./prepackage.sh`
 
-Execute e sente-se. Durante a instalação XAMPP, será manual, mas é o último passo. <br>
+Execute e aguarde. Durante a instalação, haverá algumas confirmações de instalação de certos aplicativos, então fique atento. <br>
 `./prepackage.sh`
